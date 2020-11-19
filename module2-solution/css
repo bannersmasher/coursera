@@ -20,6 +20,8 @@ h {
 	font-family: Impact, Charcoal, sans-serif;
 	text-align: right;
 	float: right;
+	padding: 2px;
+	border: 1px solid black;
 }
 p {
   Padding: 5px;
@@ -34,6 +36,7 @@ p {
 .section1{ background-color: maroon; }
 .section2{ background-color: seagreen; }
 .section3{ background-color: darkgoldenrod; }
+.block { background-color: darkslategrey;}
 
 /* Responsive Framework. */
 .row {
