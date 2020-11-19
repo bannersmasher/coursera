@@ -20,6 +20,7 @@ h {
 	font-family: Impact, Charcoal, sans-serif;
 	text-align: right;
 	float: right;
+	border: 1px solid black;
 }
 p {
   Padding: 5px;
@@ -29,11 +30,13 @@ p {
   width: 95%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: lightcyan;
+  background-color: darkslategrey;
   Overflow: auto
 }
 .section1{ background-color: maroon; }
 .section2{ background-color: seagreen; }
 .section3{ background-color: darkgoldenrod; }
+
 
 /* Responsive Framework. */
 .row {
