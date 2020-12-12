@@ -1,0 +1,159 @@
+body {
+  font-size: 50px;
+  color: #fff;
+  background-color: antiquewhite;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: cadetblue;
+  border-radius: 0;
+  border: 0;
+  height: 2em;
+}
+
+.navbar-brand {
+  padding-top: 50;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+  color: darkslategrey;
+  font-size: 5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+	font-size: 0.5em;
+}
+#nav-list a {
+  color: darkslategrey;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.5em;
+}
+.navbar-nav {
+	background: cadetblue;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid darkslategrey;
+	
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  margin-bottom:45px;
+}
+/* END HEADER */
+/* HOME PAGE */
+#menu-tile > span {
+  float: right;
+  text-align: center;
+  width: 100%;
+  font-size: 1em;
+  color: darkslategrey;
+}
+#specials-tile {
+  font-size: .3em;
+  background-color: darkslategrey;
+  margin-top: 100px;
+}
+
+#specials-tile > span {
+ font-size: 2em;
+  width: 100%;
+  float: right;
+  text-align: center;
+  color: #fff;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+/* Home Page */
+
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 200;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 11vw;
+	  /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+	  /* Home page */
+
+
+}
