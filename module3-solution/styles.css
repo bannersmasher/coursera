@@ -10,7 +10,7 @@ body {
   background-color: cadetblue;
   border-radius: 0;
   border: 0;
-  height: 2em;
+  height: 100px;
 }
 
 .navbar-brand {
@@ -139,7 +139,7 @@ body {
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 12em;
+    font-size: 30px;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
